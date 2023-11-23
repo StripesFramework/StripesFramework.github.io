@@ -1,5 +1,18 @@
 title: Stripes Framework
-description: Stripes is a thin and light Java MVC Framework
-show_downloads: true
-google_analytics:
-theme: jekyll-theme-cayman
+description: Stripes is a thin and light Java MVC framework
+remote_theme: zendesk/jekyll-theme-zendesk-garden@main
+
+baseurl: /jekyll-theme-zendesk-garden
+
+search_enabled: true
+auto_page_title: true
+
+sidebar:
+  - getting-started
+  - label: Customization
+    children:
+      - sidebar
+      - search
+      - relative-nav
+      - additional-config
+  - development
